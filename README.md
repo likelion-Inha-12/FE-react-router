@@ -20,7 +20,7 @@ Header 컴포넌트의 기능은 다음과 같습니다!
 <br/>
 _src/components/Header.jsx 와 App.js 에서 진행해주시면 됩니다!_
 
-// header 사진
+![스크린샷 2024-05-13 시간: 15 42 50](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/f5d89057-2716-4401-98e6-aac9bc4ea9df)
 
 <br/>
 
