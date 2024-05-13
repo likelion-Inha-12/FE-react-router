@@ -19,7 +19,7 @@ Header 컴포넌트의 기능은 다음과 같습니다!
 
 <br/>
 src/components/Header.jsx 와 App.js 에서 진행해주시면 됩니다!
-<br/>
+<br/><br/>
 
 ![스크린샷 2024-05-13 시간: 15 42 50](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/f5d89057-2716-4401-98e6-aac9bc4ea9df)
 
@@ -31,7 +31,7 @@ Link를 활용하여 Main Page에서 Menu Page로 이동할 수 있도록 해주
 
 <br/>
 src/pages/Main.jsx 와 App.js 에서 진행해주시면 됩니다!
-<br/>   
+<br/><br/> 
 
 ![스크린샷 2024-05-13 시간: 15 03 55](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/d8a2e7f7-3b8c-4203-81a0-0516e94ec94c)
 
@@ -51,7 +51,7 @@ Menu Page에서 브랜드 명을 입력 받아 해당 Product 페이지로 이�
  
 <br/>
 src/pages/Menu.jsx, src/pages/Product.jsx, App.js 에서 진행해주시면 됩니다!
-<br/>
+<br/><br/>
 
 ![스크린샷 2024-05-13 시간: 15 03 37](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/9f7095ac-9f51-46d0-8e88-dc2b95c7cc0f)
 
@@ -69,7 +69,7 @@ Menu Page에서 입력한 브랜드 명이 data 객체 배열에 존재하는 ke
 
 <br/>
 src/pages/Menu.jsx, src/pages/Product.jsx, App.js 에서 진행해주시면 됩니다!
-<br/>
+<br/><br/>
 
 - 올바른 브랜드를 입력했을 때
 ![스크린샷 2024-05-13 시간: 15 03 43](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/63ec23fe-5aef-4ba8-9e9d-f661eaf8ae49)
@@ -86,7 +86,7 @@ src/pages/Menu.jsx, src/pages/Product.jsx, App.js 에서 진행해주시면 됩�
 
 <br/>
 src/pages/NotFound.jsx, App.js 에서 진행해주시면 됩니다!
-<br/>
+<br/><br/>
 
 ![스크린샷 2024-05-13 시간: 15 07 52](https://github.com/likelion-Inha-12/FE-react-router/assets/116332741/ac42222f-77e3-4c94-b96f-dc1e01a3ab7a)
 <br/>
