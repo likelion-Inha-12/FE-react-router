@@ -1,4 +1,5 @@
 import React from "react";
+import {useParams} from 'react-router-dom';
 
 const data = {
     "맘스터치": {
@@ -23,12 +24,24 @@ const data = {
     }
 }
 
+// 입력된 url의 값을 가져오기 위한 brandname(useParams!) 
+// html에서는 조건문을 사용할 수 없기 때문에 삼항연산자를 사용하여 이를 구현함!
 
 const Product = () => {
+    const { brandname } = useParams();
+    const product = data[brandname];
 
     return (
-        <>
-        </>
+        <div>
+            {product ?
+                <div>
+                    <h3>{brandname}</h3>
+                    <p>{product.title}</p>
+                    <p>{product.price}</p>
+                </div> :
+                <p>해당 브랜드의 제품을 찾을 수 없습니다.</p>
+                }
+        </div>
     )
 }
 
