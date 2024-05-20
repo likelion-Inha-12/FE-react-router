@@ -1,4 +1,5 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 const data = {
     "맘스터치": {
@@ -23,11 +24,19 @@ const data = {
     }
 }
 
-
 const Product = () => {
-
+    const { userId } = useParams();
+    const product = data[userId];
+    if (!product){
+        return (
+            <p>해당 브랜드의 제품을 찾을 수 없습니다.</p>
+        )
+    }
     return (
         <>
+            <h2>{userId}</h2> 
+            <p>{product.title}</p>
+            <p>{product.price}</p>
         </>
     )
 }
